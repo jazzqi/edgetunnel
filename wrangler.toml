@@ -1,13 +1,14 @@
-name = "v20251104"
+name = "edgetunnel-oci-seoul"
 main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = ""				#KV数据库id
+[[kv_namespaces]]
+binding = "KV"
+id = "c6d507e4c11d405793d88d6500b5a76e"
 
 [observability]
 [observability.logs]
-enabled = false
+enabled = true
 invocation_logs = true
+ --name  --kv-bind "KV="
