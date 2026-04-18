@@ -11,4 +11,3 @@ id = "c6d507e4c11d405793d88d6500b5a76e"
 [observability.logs]
 enabled = true
 invocation_logs = true
- --name  --kv-bind "KV="
