@@ -6,8 +6,3 @@ keep_vars = true
 [[kv_namespaces]]
 binding = "KV"
 id = "60100cd21af04ccb9fd34c121f11a723"
- 
-[observability]
-[observability.logs]
-enabled = true
-invocation_logs = true
